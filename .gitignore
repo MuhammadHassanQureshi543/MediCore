@@ -1,0 +1,30 @@
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.vcxproj*
+*.vcxproj.filters
+*.dbmdl
+*.jfm
+
+# Ignore build artifacts
+bin/
+obj/
+out/
+
+# Ignore dependencies
+packages/
+node_modules/
+wwwroot/lib/
+
+# Ignore environment and config files
+appsettings*.json
+secrets.json
+.env
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.nlog
+*.tlog
+*.cache
