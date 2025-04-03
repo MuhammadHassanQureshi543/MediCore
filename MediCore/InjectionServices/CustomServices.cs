@@ -16,6 +16,7 @@ using InfraStructure.Services.UserServices;
 using Microsoft.Extensions.DependencyInjection;
 namespace UserSphere.InjectionServices
 {
+// this is custom services
     public static class CustomServices
     {
         public static void AddCustomServices(this IServiceCollection services)
