@@ -17,6 +17,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace InfraStructure.Services.BillingServices
 {
+    //Iinherit from Ibilling interface
     public class BillingServices : IBilling
     {
         private readonly AppDbContext _dbContext;
